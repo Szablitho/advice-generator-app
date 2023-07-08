@@ -4,8 +4,8 @@
 
 The designs were created to the following widths:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Mobile: 23.4375/375px
+- Desktop: 90rem/1440px
 
 ## Colors
 
@@ -24,7 +24,7 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (quote): 28px
+- Font size (quote): 1.0769230769230769rem/28px
 
 ### Font
 

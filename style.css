@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+:root {
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-blue: hsl(218, 23%, 16%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-blue);
+  font-family: "Manrope", sans-serif;
+  /* height: 100vh; */
+ font-size:  1.0769230769230769rem;
+}
+
+.card-flexbox {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.advice-card h6 {
+  margin: 2rem auto;
+  color: var(--neon-green);
+}
+.advice-card {
+  background-color: var(--dark-grayish-blue);
+  position: relative;
+  max-height: 40rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  max-width: 30rem;
+  margin: 5rem auto;
+  padding: 1rem 0.2rem 3rem;
+  border-radius: 15px;
+}
+.advice {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--light-cyan);
+  margin: 20px;
+}
+#dice-background {
+  position: absolute;
+  left: calc(50% - 2rem);
+  bottom: calc(0% - 2rem);
+  background-color: var(--neon-green);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2rem;
+}
+#dice {
+  transform: translateY(1.2rem);
+}
+/* @media screen and (max-width: 90rem) {
+  .advice-card {
+    margin: calc(50%-15rem) auto calc(50%+15rem);
+  }
+} */
+#dice-background:hover {
+  box-shadow: 0 0 20px 3px var(--neon-green);
+}
+
