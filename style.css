@@ -26,6 +26,9 @@ body {
 .advice-card h6 {
   margin: 2rem auto;
   color: var(--neon-green);
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+  font-size: 0.7rem;
 }
 .advice-card {
   background-color: var(--dark-grayish-blue);
