@@ -13,11 +13,11 @@ body {
   background-color: var(--dark-blue);
   font-family: "Manrope", sans-serif;
   /* height: 100vh; */
- font-size:  1.0769230769230769rem;
+  font-size: 1.0769230769230769rem;
 }
 
 .card-flexbox {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -47,6 +47,12 @@ body {
   color: var(--light-cyan);
   margin: 20px;
 }
+.divider .svg-mobile-divider {
+  display: none;
+}
+.divider .svg-desktop-divider {
+  display: none;
+}
 #dice-background {
   position: absolute;
   left: calc(50% - 2rem);
@@ -67,4 +73,16 @@ body {
 #dice-background:hover {
   box-shadow: 0 0 20px 3px var(--neon-green);
 }
-
+@media screen and (min-width: 23.4375rem) {
+  .divider .svg-mobile-divider {
+    display: initial;
+  }
+}
+@media screen and (min-width: 90rem) {
+  .divider .svg-mobile-divider {
+    display: none;
+  }
+  .divider .svg-desktop-divider {
+    display: initial;
+  }
+}
