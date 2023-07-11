@@ -44,12 +44,44 @@ body {
   padding: 1rem 0.2rem 3rem;
   border-radius: 15px;
 }
+/* @keyframes showOff {
+  from {
+    color: hsla(193, 38%, 86%,1);
+    font-size: 1.25rem;
+  }
+  20% {
+    color:hsla(217, 19%, 44%,0.5);
+    font-size: 1rem;
+  }
+  40% {
+    color: hsla(217, 19%, 24%,0);
+    font-size: 0.75rem;
+  }
+  60% {
+    color: hsla(217, 19%, 30%,0.5);
+    font-size: 1rem;
+  }
+  80% {
+    color: hsl(193, 38%, 56%,0.8);
+    font-size: 1rem;
+  }
+ 
+} */
+/* .advice.animate {
+  animation-name: showOff;
+  animation-duration: 2s;
+} */
+.advice,
+.advice-card h6 {
+  transition: opacity 2s, font-size 2s;
+}
 .advice {
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--light-cyan);
   margin: 20px;
 }
+
 .divider .svg-mobile-divider {
   display: none;
 }
@@ -67,6 +99,7 @@ body {
 }
 #dice {
   transform: translateY(1.2rem);
+  transition: transform 2s;
 }
 /* @media screen and (max-width: 90rem) {
   .advice-card {
