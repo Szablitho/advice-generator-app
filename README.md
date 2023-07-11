@@ -113,3 +113,5 @@ I want to focus on fetching datas with APIs and know more about JavaScript modul
 
 MDN helped me understand Fetch API bot on my way i also found few good explanations abouts SVG in Web. Thank you developers for knowledge and ressources,
 Thank you FrontEnd mentor for allowing me make this project.
+
+Also, on FrontEnt mentor I found a solution [made with React](https://jordanheve.github.io/advice-generator-app/). I liked effects so much that i implemented them myself using CSS and JavaScript.
